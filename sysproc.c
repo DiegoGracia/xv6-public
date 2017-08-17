@@ -97,3 +97,8 @@ int sys_shutdown(void){
 		return 0;
 	}
 	
+int sys_out(void){
+	outb(0x64,0xfe);
+		return 0;
+	}
+	
