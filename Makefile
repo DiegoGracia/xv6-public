@@ -176,6 +176,7 @@ UPROGS=\
 	_wc\
 	_zombie\
 	_shutdown\
+	_fibo\
 	_out\
 
 fs.img: mkfs README $(UPROGS)
